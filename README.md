@@ -1,7 +1,11 @@
 # ionic3-horoscope
 
 > 
-###  iphone and android available
+### Iphone and Android available
+>
+#### For start : ``` ionic serve -l ```
+
+
 
 ![screenshot of sample](https://image.ibb.co/jXRJp9/1.png)
 >
