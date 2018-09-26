@@ -1,0 +1,33 @@
+
+<ion-content padding>
+
+  <div>
+      <h1 style="font-weight: bold; color: #fff; text-align: center; margin: 20px 0;">Ваша совместимость</h1>
+      <ion-item>
+          <ion-icon name="contacts" item-start></ion-icon>
+          Создание семьи
+          <ion-badge item-end>{{family}}</ion-badge>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="beer" item-start></ion-icon>
+          Дружба с вами
+          <ion-badge item-end>{{friend}}</ion-badge>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="notifications-off" item-start></ion-icon>
+          Недружелюбие
+          <ion-badge item-end>{{cansel}}</ion-badge>
+        </ion-item>
+  </div>
+
+  <div>
+    <p class="result">{{result}}</p>
+  </div>
+
+  <button ion-button full color="secondary" (click)="goBack()">Узнать совместимости других знаков</button>
+  
+</ion-content>
+
+
+
+

@@ -1,0 +1,40 @@
+ion-content{
+    background-image: url(../assets/bg.jpg);
+    background-size: cover;
+   // background-color: #000;
+}
+
+.margin {
+    margin-top: 50px !important;
+}
+
+[padding] h1:first-child, [padding] h2:first-child, [padding] h3:first-child, [padding] h4:first-child, [padding] h5:first-child, [padding] h6:first-child{
+    margin-top: 0;
+}
+
+ion-card{
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+h1,h2,h3{
+    color: #fff;
+    text-align: center;
+}
+
+.img-logo{
+    max-width: 100%;
+    height: 120px;
+}
+
+.center{
+    text-align: center;
+}
+
+.alert-title{
+    color: #333;
+}
+
+.alert-sub-title{
+    color: #999;
+}

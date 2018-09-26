@@ -1,0 +1,61 @@
+      
+      <ion-content padding>
+        <h3 style="margin-top: 50px;">Выберите свой знак зодиака</h3>
+        <ion-item>
+          <ion-label>Выберите ваш знак зодиака</ion-label>
+          <ion-select okText="ОК" cancelText="Отмена" (ionChange)="goFirst($event)">
+            <ion-option value="Овен">Овен </ion-option>
+            <ion-option value="Телец">Телец</ion-option>
+            <ion-option value="Близнецы">Близнецы</ion-option>
+            <ion-option value="Рак">Рак</ion-option>
+            <ion-option value="Лев">Лев</ion-option>
+            <ion-option value="Дева">Дева</ion-option>
+            <ion-option value="Весы">Весы</ion-option>
+            <ion-option value="Скорпион">Скорпион</ion-option>  
+            <ion-option value="Стрелец">Стрелец</ion-option>
+            <ion-option value="Козерог">Козерог</ion-option>
+            <ion-option value="Водолей">Водолей</ion-option>
+            <ion-option value="Рыбы">Рыбы</ion-option>
+          </ion-select>
+        </ion-item>
+      
+        
+        <h3>Знак зодиака вашего партнера</h3>
+        <ion-item>
+          <ion-label>Знак зодиака вашего партнера</ion-label>
+          <ion-select okText="ОК" cancelText="Отмена" (ionChange)="goSecond($event)">
+            <ion-option value="Овен">Овен</ion-option>
+            <ion-option value="Телец">Телец</ion-option>
+            <ion-option value="Близнецы">Близнецы</ion-option>
+            <ion-option value="Рак">Рак</ion-option>
+            <ion-option value="Лев">Лев</ion-option>
+            <ion-option value="Дева">Дева</ion-option>
+            <ion-option value="Весы">Весы</ion-option>
+            <ion-option value="Скорпион">Скорпион</ion-option>  
+            <ion-option value="Стрелец">Стрелец</ion-option>
+            <ion-option value="Козерог">Козерог</ion-option>
+            <ion-option value="Водолей">Водолей</ion-option>
+            <ion-option value="Рыбы">Рыбы</ion-option>
+          </ion-select>
+        </ion-item>
+        
+      
+        <div padding>
+          <button ion-button block color="secondary" (click)="goCheck()">Узнать совместимость</button>
+        </div>
+      
+        <div padding *ngIf="firstPerson || secondPerson" class="plus">
+          <h3><p *ngIf="firstPerson">Вы: {{firstPerson}}</p> <span *ngIf="firstPerson && secondPerson">+</span> <p *ngIf="secondPerson">Партнер: {{secondPerson}}</p></h3>
+        </div>
+
+        <!-- <div class="end">
+
+            <button ion-button outline item-end icon-start (click)="goToMainMenu()">
+                <ion-icon name="home"></ion-icon>
+                На главную
+              </button>
+        </div> -->
+        
+          
+      </ion-content>
+      

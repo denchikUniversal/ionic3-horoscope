@@ -1,0 +1,4 @@
+#Tue Sep 25 18:42:52 EEST 2018
+base.0=D\:\\Admin\\Desktop\\horoscope\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=D\:\\Admin\\Desktop\\horoscope\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
